@@ -1,0 +1,33 @@
+{
+    "xuzhou": {
+        "img_path": "../HSI_data/xuzhou.mat",
+        "gt_path": "../HSI_data/xuzhou_gt.mat",
+        "n_superpixels": 1000,
+        "temperature": 0.5,
+        "patch_size": 7,
+        "alpha_recon": 0.0001,
+        "alpha_cluster": 1,
+        "alpha_hsa": 1,
+        "beta": 3,
+        "neighbors": 50
+        },
+    "seed": 0,
+    "device": "cuda:0",
+    "n_epoches": 100,
+    "dataset_name": "xuzhou",
+    "remove_bkg": true,
+    "n_pc": 10,
+    "lr": 0.001,
+    "weight_decay": 0.0005,
+    "gae_n_enc_1": 128,
+    "gae_n_enc_2": 256,
+    "gae_n_enc_3": 512,
+    "gae_n_dec_1": 512,
+    "gae_n_dec_2": 256,
+    "gae_n_dec_3": 128,
+    "save_model": true,
+    "cache_step": 10,
+    "log_path": "./log",
+    "save_path": "./save",
+    "result_path": "./result"
+}

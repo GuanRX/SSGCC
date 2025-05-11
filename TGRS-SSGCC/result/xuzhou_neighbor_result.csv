@@ -1,0 +1,16 @@
+
+
+num_superpixels: 1000, patch_size: 7, neighbors: 5, temperature: 0.5, alpha_clu_loss: 1, alpha_hsa_loss: 1
+Seed: 0, ACC: 73.34, NMI: 66.99, ARI: 66.34, F1: 71.67, Pruty: 77.88, RunTime:218.6928
+Seed: 1, ACC: 74.70, NMI: 68.79, ARI: 67.12, F1: 71.51, Pruty: 80.50, RunTime:221.4355
+Seed: 2, ACC: 73.61, NMI: 67.59, ARI: 65.04, F1: 63.94, Pruty: 76.89, RunTime:222.3370
+Seed: 3, ACC: 70.67, NMI: 63.70, ARI: 64.78, F1: 68.47, Pruty: 75.86, RunTime:225.8761
+Seed: 4, ACC: 72.83, NMI: 66.50, ARI: 66.83, F1: 70.90, Pruty: 80.09, RunTime:222.1982
+Average: ACC: 73.03 ± 1.33, NMI: 66.71 ± 1.69, ARI: 66.02 ± 0.94, F1: 69.3 ± 2.92, Purty: 78.24 ± 1.8
+
+
+num_superpixels: 1000, patch_size: 7, neighbors: 10, temperature: 0.5, alpha_clu_loss: 1, alpha_hsa_loss: 1
+Seed: 0, ACC: 72.64, NMI: 66.19, ARI: 66.76, F1: 70.80, Pruty: 79.00, RunTime:223.9962
+
+
+num_superpixels: 1000, patch_size: 7, neighbors: 50, temperature: 0.5, alpha_clu_loss: 1, alpha_hsa_loss: 1
